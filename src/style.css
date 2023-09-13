@@ -21,3 +21,14 @@ h1, p{
     justify-content: center;
     align-items: center;
 }
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 0px black;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+}
