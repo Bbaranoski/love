@@ -32,3 +32,18 @@ button{
     padding: 5px;
     border-radius: 10px;
 }
+
+#partOne, #partTwo{
+    height: 70vh;
+    width: 70vw;
+    transition: background-color 3s ease-out 0s;
+    border-radius: 10px;
+}
+
+#partOne{
+    background-color: #f472b6;
+}
+
+#partTwo{
+    background-color: #ec4899;
+}
