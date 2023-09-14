@@ -33,17 +33,35 @@ button{
     border-radius: 10px;
 }
 
-#partOne, #partTwo{
+#partOne, #partTwo, #partThree{
     height: 70vh;
     width: 70vw;
     transition: background-color 3s ease-out 0s;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #partOne{
     background-color: #f472b6;
 }
 
-#partTwo{
+#partTwo, #partThree{
     background-color: #ec4899;
+}
+
+.continuar{
+    border: 0px solid;
+    color: #ec4899;
+    background-color: #f472b6;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.continuar:hover{
+    color: #f472b6;
+    background-color: #db2777;
 }

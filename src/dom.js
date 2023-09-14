@@ -10,6 +10,8 @@ partThree.setAttribute('id', 'partThree')
 
 const buttonOne = document.createElement('button')
 const buttonTwo = document.createElement('button')
+buttonOne.classList.add('continuar')
+buttonTwo.classList.add('continuar')
 buttonOne.textContent = 'Continuar'
 buttonTwo.textContent = 'Continuar'
 partOne.appendChild(buttonOne)
@@ -59,4 +61,10 @@ function appendOne() {
 
 function appendTwo(){
     main.appendChild(partTwo)
+    main.style.backgroundColor = '#f9a8d4'
+}
+
+function appendThree(){
+  main.appendChild(partThree)
+  main.style.backgroundColor ='#b91c1c'
 }
