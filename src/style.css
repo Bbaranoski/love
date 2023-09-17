@@ -75,3 +75,13 @@ button{
     transition: color 2s ease-out 0s;
     font-size: 20px;
 }
+
+.content{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.content > p{
+    font-size: 50px;
+}
